@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  margin: 47px 0 180px 47px;
+}
+
+header .menu a {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 32px;
+  line-height: 100%;
+  letter-spacing: 0.88px;
+  text-align: center;
+  color: #17233d;
+  cursor: pointer;
+}
+
+header .menu a:hover {
+  color: #6fbf44;
+}
+header .menu a:active {
+  color: #569334;
+}
+
+header .nav-button {
+  width: 124;
+  height: 51;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 13px 29px;
+  background-color: #6fbf44;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #ffffff;
+  cursor: pointer;
+}
+header .nav-button:hover {
+  background-color: #569334;
+}
+
+header .nav-button:active {
+  background-color: #6fbf44;
+}
+
+main img {
+  width: 534px;
+  height: 467px;
+  display: inline-block;
+  margin-left: 121px;
+  margin-right: 84px;
+}
+
+main .text {
+  display: inline-block;
+  width: 493px;
+}
+
+main .text h1 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.6px;
+  color: #161a49;
+}
+
+main .text p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #4b505a;
+  margin: 50px 0;
+}
+
+main .text a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #6FBF44;
+  text-decoration: none;
+}
