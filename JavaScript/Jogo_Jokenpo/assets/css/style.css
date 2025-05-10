@@ -105,13 +105,36 @@ p {
   margin: 5px 0;
   color: white;
 }
-.machine-points {
+.machine-score {
   color: brown;
   font-weight: bold;
   font-size: 20px;
 }
-.player-points {
+.player-score {
   color: #4c4cff;
   font-weight: bold;
   font-size: 20px;
+}
+
+.btn-zerar{
+  background-color: #ff4c4c;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.btn-zerar:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.btn-zerar:active{
+  transform: scale(0.9);
 }
