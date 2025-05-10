@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Jokenpô</title>
+</head>
+<body>
+    <main>
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="">
+            <h1>Jokenpô</h1>
+        </div>
+        <div class="container">
+            <h2>Escolha uma opção:</h2>
+            <div class="buttons">
+                <button class="btn-rock" id="rock" onclick="playHuman('rock')"><img src="./assets/img/rock.png" alt=""></button>
+                <button class="btn-paper" id="paper" onclick="playHuman('paper')"><img src="./assets/img/paper.png" alt=""></button>
+                <button class="btn-scissors" id="scissors" onclick="playHuman('scissors')"><img src="./assets/img/scissors.png" alt=""></button>
+            </div>
+            <h2>Resultado:</h2>
+            <p>Pontos do jogador: <span class="player-points">0</span></p>
+            <p>Pontos do máquina: <span class="machine-points">0</span></p>
+        </div>
+    </main>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
