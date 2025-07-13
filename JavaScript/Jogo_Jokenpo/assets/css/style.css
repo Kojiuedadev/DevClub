@@ -105,16 +105,26 @@ p {
   margin: 5px 0;
   color: white;
 }
+<<<<<<< HEAD
+.machine-points {
+=======
 .machine-score {
+>>>>>>> ed2e33d6a927e0a669eebfcde0a611a57b273f51
   color: brown;
   font-weight: bold;
   font-size: 20px;
 }
+<<<<<<< HEAD
+.player-points {
+=======
 .player-score {
+>>>>>>> ed2e33d6a927e0a669eebfcde0a611a57b273f51
   color: #4c4cff;
   font-weight: bold;
   font-size: 20px;
 }
+<<<<<<< HEAD
+=======
 
 .btn-zerar{
   background-color: #ff4c4c;
@@ -138,3 +148,4 @@ p {
 .btn-zerar:active{
   transform: scale(0.9);
 }
+>>>>>>> ed2e33d6a927e0a669eebfcde0a611a57b273f51

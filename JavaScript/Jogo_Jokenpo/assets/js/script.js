@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+const playHuman = (humanChoise) => { 
+    console.log(humanChoise);
+    console.log(`Pc escolheu ${playComputer()}`);
+    
+}
+
+const playComputer = () => {
+    const choices = ['rock', 'paper', 'scissors'];
+    
+
+    return choices[Math.floor(Math.random() * choices.length)];
+}
+=======
 const scorePlayer = document.querySelector(".player-score");
 const scoreComputer = document.querySelector(".machine-score");
 const result = document.querySelector(".resultado");
@@ -41,3 +55,4 @@ const resetGame = () => {
   scoreComputer.innerHTML = machineScore;
   result.innerHTML = "Jogo reiniciado!";
 }
+>>>>>>> ed2e33d6a927e0a669eebfcde0a611a57b273f51

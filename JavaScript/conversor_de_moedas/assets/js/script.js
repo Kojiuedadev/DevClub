@@ -8,12 +8,18 @@ const currencyNameDe = document.querySelector(".currency-name-de"); //mapea o no
 const currencyNamePara = document.querySelector(".currency-name-para"); //mapea o nome da moeda de destino
 
 //função que vai converter o valor
-function convertValue() {
+const convertValue = async () => {
   const currencyValue = document.querySelector(".currency-value"); //mapea o valor a ser convertido
   const inputCurrency = document.querySelector(".input-currency").value; //mapea o input de moeda
 
-  const dolarToday = 5.2; //valor do dolar hoje
-  const euroToday = 5.6; //valor do euro hoje
+  
+  const date = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
+  
+  console.log(date);
+  
+  const dolarToday = date.USDBRL.high; //valor do dolar hoje
+  const euroToday = date.EURBRL.high; //valor do euro hoje
+
 
   if (selectConvertDe.value === "dolar" && selectConvertPara.value === "real") {
     currencyNameDe.innerHTML = "Dólar Americano"; //muda o nome da moeda de origem
