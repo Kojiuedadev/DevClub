@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <img class="logo" src="./assets/img/logo.png" alt="Logo">
+    <h1>Conversor de Moedas</h1>
+    <main class="container">
+        <div class="container__formulario">
+
+            <div class="container__formulario__opcoes">
+                <section class="container__opcoes">
+                    <label for="">Converter <strong>de</strong>
+                        <select class="select-convert-de">
+                            <option value="real">Real Brasileiro</option>
+                            <option value="dolar">Dólar Americano</option>
+                            <option value="euro">Euro</option>
+                        </select>
+                    </label>
+                    <label for="">Converter <strong>para</strong>
+                        <select class="select-convert-para">
+                            <option value="dolar">Dólar Americano</option>
+                            <option value="euro">Euro</option>
+                            <option value="real">Real Brasileiro</option>
+                        </select>
+                    </label>
+                    <label for=""> Valor
+                        <input type="number" class="input-currency" placeholder="Valor a ser convertido">
+                    </label>
+                </section>
+                <section class="container__resultado">
+                    <div class="currency-box">
+                        <img class="flag-de" src="./assets/img/bd_brazil.png" alt="bandeira do Brasil">
+                        <p class="currency-name-de">Real Brasileiro</p>
+                        <p class="currency-value">R$ 0.00</p>
+                    </div>
+                    <img src="assets/img/arrow.png" alt="seta para baixo">
+                    <div class="currency-box">
+                        <img class="flag-para" src="./assets/img/bd_usa.png" alt="bandeira do EUA">
+                        <p class="currency-name-para">Dólar Americano</p>
+                        <p class="currency-value-to-convert">US$ 0.00</p>
+                    </div>
+                </section>
+            </div>
+            <button class="btn_converter">Converter</button>
+        </main>
+    <!-- js -->
+</body>
+<script src="./assets/js/script.js"></script>
+
+</html>
