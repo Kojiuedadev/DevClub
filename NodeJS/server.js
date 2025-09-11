@@ -41,6 +41,17 @@ app.put("/usuario/:id", async (req, res) => {//cria uma rota POST
   res.status(201).json(user); //responde com uma mensagem
 });
 
+  app.delete("/usuario/:id", async (req, res) => {//cria uma rota DELETE
+
+    const user = await prisma.user.delete({ //deleta um usuário no banco de dados
+      where: {
+        id: req.params.id
+      }
+    });
+
+    res.status(200).json(user); //responde com uma mensagem
+  });
+
 app.listen(3000, () => console.log("Servidor rodando na porta 3000")); //inicia o servidor na porta 3000
 
 //http://localhost:3000/
