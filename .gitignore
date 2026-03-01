@@ -10,6 +10,7 @@ yarn-error.log
 
 # Configurações do VS Code
 .vscode/
+*.code-workspace
 
 # Arquivos de sistema
 .DS_Store
