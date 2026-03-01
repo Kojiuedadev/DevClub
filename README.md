@@ -1,24 +1,28 @@
-# Meus Projetos de Desenvolvimento Web
+# 🚀 DevClub - Trilha Fullstack
 
 Bem-vindo(a) ao meu repositório de projetos!
 
-Este espaço foi criado para apresentar os projetos que desenvolvi durante o meu curso de programação. Aqui, você encontrará exemplos práticos do meu aprendizado e da minha evolução no mundo do desenvolvimento web.
+Este espaço foi criado para apresentar os projetos e exercícios que desenvolvi durante a **Trilha Fullstack do DevClub**. Aqui, você encontrará exemplos práticos do meu aprendizado e da minha evolução no mundo do desenvolvimento web, indo do Front-end ao Back-end.
 
-O objetivo é demonstrar as linguagens de programação e tecnologias que estou dominando, além de exibir minhas habilidades na resolução de problemas e na criação de soluções inovadoras.
+## 📂 Estrutura do Repositório
 
-## Tecnologias e Linguagens
+O repositório está organizado cronologicamente de acordo com os módulos do curso:
 
-Atualmente, estou me dedicando ao aprendizado das seguintes tecnologias:
+- **01-fundamentos**: Exercícios básicos de lógica, HTML e CSS.
+- **02-javascript**: Conceitos de JS funcional, manipulação de DOM e consumo de API.
+- **03-react**: Projetos desenvolvidos com React.js.
+- **04-nodejs**: APIs e back-end construídos com Node.js.
 
-*   HTML
-*   CSS
-*   JavaScript
+## 🛠️ Tecnologias e Linguagens
 
-## Próximos Passos
+Atualmente, estou me dedicando ao aprendizado e aplicação das seguintes tecnologias:
 
-Estou sempre buscando aprimorar minhas habilidades e explorar novas tecnologias. Em breve, novos projetos serão adicionados a este repositório!
+- 🌐 HTML5 & CSS3
+- ☕ JavaScript (ES6+)
+- ⚛️ React.js
+- 🟢 Node.js
 
-## Contato
+## 📬 Contato
 
 Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestão:
 
