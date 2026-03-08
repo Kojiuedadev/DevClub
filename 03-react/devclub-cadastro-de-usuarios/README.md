@@ -1,16 +1,32 @@
-# React + Vite
+# 🚀 DevClub - Trilha Fullstack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo(a) ao meu repositório de projetos!
 
-Currently, two official plugins are available:
+Este espaço foi criado para apresentar os projetos e exercícios que desenvolvi durante a **Trilha Fullstack do DevClub**. Aqui, você encontrará exemplos práticos do meu aprendizado e da minha evolução no mundo do desenvolvimento web, indo do Front-end ao Back-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Estrutura do Repositório
 
-## React Compiler
+O repositório está organizado cronologicamente de acordo com os módulos do curso:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **01-fundamentos**: Exercícios básicos de lógica, HTML e CSS.
+- **02-javascript**: Conceitos de JS funcional, manipulação de DOM e consumo de API.
+- **03-react**: Projetos desenvolvidos com React.js.
+- **04-nodejs**: APIs e back-end construídos com Node.js.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias e Linguagens
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Atualmente, estou me dedicando ao aprendizado e aplicação das seguintes tecnologias:
+
+- 🌐 HTML5 & CSS3
+- ☕ JavaScript (ES6+)
+- ⚛️ React.js
+- 🟢 Node.js
+
+## 📬 Contato
+
+Sinta-se à vontade para entrar em contato caso tenha alguma dúvida ou sugestão:
+
+<a href="https://www.linkedin.com/in/alexandre-ueda/">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a>
+
+Obrigado(a) pela visita!
+
