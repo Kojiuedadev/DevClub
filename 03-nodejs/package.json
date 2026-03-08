@@ -2,6 +2,7 @@
   "name": "03-nodejs",
   "version": "1.0.0",
   "description": "Este repositório contém meus estudos e projetos focados no desenvolvimento de servidores e APIs utilizando Node.js, conforme a trilha do DevClub.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
